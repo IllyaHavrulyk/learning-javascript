@@ -1,0 +1,10 @@
+let style = ["Джаз", "Блюз"];
+alert(style);
+style.push("Рок-н-ролл");
+alert(style);
+style[Math.round(style.length / 2) - 1] = "Классика";
+alert(style);
+style.shift();
+alert(style);
+style.unshift("Рэп", "Регги");
+alert(style);
